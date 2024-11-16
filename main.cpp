@@ -8,8 +8,7 @@
 
 using namespace std;
 
-// Função auxiliar para testar um algoritmo específico
-void testAlgorithm(const string& name, void (*sortFunc)(int[], int), 
+void testAlgorithm(const string& name, void (*sortFunc)(int[], int),
                    const vector<int>& sizes, const string& arrayType) {
     vector<sorting::SortStats> stats;
     cout << "  " << name << "... " << flush;
@@ -56,10 +55,7 @@ int main() {
     cin >> choice;
 
     if (choice == 2) {
-        // Criar diretório 'data' se não existir
         filesystem::create_directory("../data");
-        
-        // Atualizar caminhos dos arquivos
         vector<string> fileNames = {
             "../data/ascending_resultados.csv",
             "../data/descending_resultados.csv",
@@ -71,7 +67,6 @@ int main() {
             clearFile.close();
         }
 
-        // Tamanhos menores para todos os algoritmos
         vector<int> sizes = {1000, 5000, 10000, 50000, 100000};
         vector<string> arrayTypes = {"ascending", "descending", "random"};
 

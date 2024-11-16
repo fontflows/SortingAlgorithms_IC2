@@ -109,7 +109,6 @@ namespace sorting {
             }
         }
 
-        // Extrair elementos
         for (int i = size; i > 1; i--) {
             std::swap(arr[1], arr[i]);
             movements += 3;
@@ -177,11 +176,9 @@ namespace sorting {
 
     void quickSort(int arr[], int left, int right) {
         if (left >= right) return;
-
-        // Choose pivot as median of first, middle, and last elements
         int mid = (left + right) / 2;
         int pivot = std::max(std::min(arr[left], arr[mid]), std::min(std::max(arr[left], arr[mid]), arr[right]));
-        movements += 3; // Counts the pivot selection
+        movements += 3;
 
         int i = left, j = right;
         while (i <= j) {
@@ -195,7 +192,7 @@ namespace sorting {
             }
             if (i <= j) {
                 std::swap(arr[i], arr[j]);
-                movements += 3; // Counts each swap
+                movements += 3;
                 i++;
                 j--;
             }
