@@ -1,0 +1,36 @@
+Algorithm,ArrayType,Size,Comparisons,Movements,Time
+Insercao Direta,ascending,1000,999,0,0.000003
+Insercao Direta,ascending,5000,4999,0,0.000012
+Insercao Direta,ascending,10000,9999,0,0.000023
+Insercao Direta,ascending,50000,49999,0,0.000114
+Insercao Direta,ascending,100000,99999,0,0.000229
+Insercao Binaria,ascending,1000,8977,1998,0.000019
+Insercao Binaria,ascending,5000,56809,9998,0.000118
+Insercao Binaria,ascending,10000,123617,19998,0.000256
+Insercao Binaria,ascending,50000,734465,99998,0.001520
+Insercao Binaria,ascending,100000,1568929,199998,0.003238
+Selecao,ascending,1000,499500,0,0.001049
+Selecao,ascending,5000,12497500,0,0.026770
+Selecao,ascending,10000,49995000,0,0.105371
+Selecao,ascending,50000,1249975000,0,2.610346
+Selecao,ascending,100000,4999950000,0,10.565379
+Bubblesort,ascending,1000,999,0,0.000003
+Bubblesort,ascending,5000,4999,0,0.000012
+Bubblesort,ascending,10000,9999,0,0.000027
+Bubblesort,ascending,50000,49999,0,0.000118
+Bubblesort,ascending,100000,99999,0,0.000235
+Heapsort,ascending,1000,17583,29124,0.000116
+Heapsort,ascending,5000,112126,182796,0.000705
+Heapsort,ascending,10000,244460,395868,0.001494
+Heapsort,ascending,50000,1455438,2319912,0.008413
+Heapsort,ascending,100000,3112517,4952562,0.018039
+Fusao,ascending,1000,5044,19952,0.001698
+Fusao,ascending,5000,32004,123616,0.008610
+Fusao,ascending,10000,69008,267232,0.017212
+Fusao,ascending,50000,401952,1568928,0.093312
+Fusao,ascending,100000,853904,3337856,0.194116
+Quicksort,ascending,1000,7987,3066,0.000027
+Quicksort,ascending,5000,51822,17712,0.000146
+Quicksort,ascending,10000,113631,35424,0.000313
+Quicksort,ascending,50000,684481,196602,0.001995
+Quicksort,ascending,100000,1468946,393210,0.004014
